@@ -1,0 +1,32 @@
+h1{
+            color:aqua;
+            background-color:darkblue;
+            font-size:2em;
+            font-family: "Edu NSW ACT Cursive", cursive;
+     }
+p{
+            /* font-family:; */
+            font-size: 10px;
+}
+/* Element selectors */
+h1{
+    color:red;
+}
+/* class selector */
+.second{
+    font-size: 30px;
+}
+/* id selectors */
+#newPara{
+    color:green;
+    font-size: 40px;
+}
+/* attribute selector */
+p[draggable="true"]{
+    color:red;
+}
+/* universal selector */
+*{
+    color: green;
+
+}
